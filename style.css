@@ -1,0 +1,178 @@
+
+body {
+    background: linear-gradient(135deg, #a6c3ee, #6a97db);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    padding-top: 70px; /* space for fixed navbar */
+
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: linear-gradient(to right, #00aaff, #0077cc);
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero {
+    height: 400px;
+    background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.title {
+    text-align: center;
+    color: #2f3e4e;
+    margin-bottom: 20px;
+}
+
+
+.form-container {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    padding: 25px 30px;            
+    background-color: #b8c7e6;
+    border: 1px solid #c3d6f3;    
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); 
+}
+
+
+fieldset {
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #4f83cc;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;            
+    margin-top: 6px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+
+.form-control:focus {
+    outline: none;
+    border-color: #4f83cc;
+    background-color: #ffffff;
+}
+
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+
+.btn-primary {
+    background-color: #4f83cc;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.btn-secondary {
+    background-color: #e5e7eb;
+    border: none;
+    padding: 10px;
+}
+
+.features {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-card {
+    padding: 20px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-color: #00aaff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin: 0 auto 15px;
+}
+
+
+.form-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #a6c3ee, #6a97db);
+}
+
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+}
